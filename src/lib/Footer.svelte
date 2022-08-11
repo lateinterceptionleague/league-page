@@ -85,5 +85,24 @@
 	}
 </style>
 
+<div class="footerSpacer" style="height: {outOfDate ? footerHeightNeedUpdate : footerHeight}px;" />
 
+<!-- footer with update notice -->
+<footer class="{outOfDate ? '' : 'invisible'}" bind:this={elNeedUpdate}>
+	<p class="updateNotice">There is an update available for your League Page. <a href="https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#iv-updates">Follow the Update Instructions</a> to get all of the newest features!</p>
+	<div id="navigation">
+		<ul>
+			{#each tabs as tab}
+				{#if !tab.nest}
+					<li><div class="navLink" on:click={() => goto(tab.dest)}>{tab.label}</div></li>
+				{:else}
+					{#each tab.children as child}
+						<li><div class="navLink" on:click={() => goto(child.dest)}>{child.label}</div></li>
+					{/each}
+				{/if}
+			{/each}
+		</ul>
+	</div>
+	<span class="copyright">&copy; 2021 - {year}</span>
+	<br />
 </footer>
