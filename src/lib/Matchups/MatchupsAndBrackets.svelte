@@ -80,7 +80,7 @@
                 </Button>
                 <!-- Championship Bracket -->
                 <Button class="selectionButtons" on:click={() => changeSelection('champions')} variant="{selection == 'champions' || selection == 'losers' ? "raised" : "outlined"}">
-                    <Label>Playoffs</Label>
+                    <Label>Playoffs</Label> <br/>
                 </Button>
             </Group>
             {#if selection == 'champions' || selection == 'losers'}
