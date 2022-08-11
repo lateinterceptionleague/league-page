@@ -16,6 +16,7 @@
 // The following classes become available:
 //   mdc-typography--headline1
 //   mdc-typography--headline2
+
 //   mdc-typography--headline3
 //   mdc-typography--headline4
 //   mdc-typography--headline5
@@ -102,9 +103,9 @@ body {
   background-color: theme.$surface;
   color: theme.$on-surface;
   min-height: 100vh;
-  background: #fff;
-  background: linear-gradient(to bottom right, #f4f4f4,#ebebeb );
-  background: -webkit-linear-gradient(to bottom right, #f4f4f4,#ebebeb );
+  background: #ffffff;
+  background: linear-gradient(to bottom right, #ffffff,#ebebeb );
+  background: -webkit-linear-gradient(to bottom right, #ffffff,#ebebeb );
 }
  
 //
