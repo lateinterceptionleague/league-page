@@ -177,9 +177,9 @@
         <div class="subBlock">
             <table class="positionMaximums">
                 <tr><td>QB</td><td class="right">2 active, 3 total</td></tr>
-                <tr><td>RB</td><td class="right">14</td></tr>
-                <tr><td>WR</td><td class="right">14</td></tr>
-                <tr><td>TE</td><td class="right">7</td></tr>
+                <tr><td>RB</td><td class="right">12</td></tr>
+                <tr><td>WR</td><td class="right">12</td></tr>
+                <tr><td>TE</td><td class="right">5</td></tr>
                 <tr><td>DEF</td><td class="right">2</td></tr>
                 <tr><td>K</td><td class="right">2</td></tr>
             </table>
