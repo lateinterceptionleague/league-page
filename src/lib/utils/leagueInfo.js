@@ -1,5 +1,5 @@
 /*   STEP 1   */
-export const leagueID = "866798748578209792"; // your league ID 862404130575060992
+export const leagueID = "862404130575060992"; // your league ID 862404130575060992
 export const leagueName = "Late Interception Keeper League"; // your league name Late Interception Keeper League
 export const dues = 50; // (optional) used in template constitution page
 export const dynasty = false; // true for dynasty leagues, false for redraft and keeper
